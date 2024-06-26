@@ -1,1 +1,35 @@
-Readme 
+
+This machine learning model takes a dataset of movies with ratings from multiple users. 
+The specific data set used is the Movie Lens 100k dataset, which has 100,000 ratings from 943 users, and has 1682 movies 
+The information included in the data set is
+User Id
+Movie Id
+Rating
+Time stamp 
+
+The Libraries used for this project are 
+
+pandas and numpy - standard data manipulation libraries.
+surprise - recommendation library. 
+Imported from surprise -
+Dataset for loading the data.
+Reader for reading custom datasets (though not used here).
+SVD for the SVD algorithm.
+accuracy for measuring the performance of the model.
+train_test_split for splitting the dataset into training and test sets.
+
+Scikit Learn 
+provides many unsupervised and supervised learning algorithms, including 
+Regression, including Linear and Logistic Regression
+Classification, including K-Nearest Neighbors
+Clustering, including K-Means and K-Means++
+Model selection
+Preprocessing, including Min-Max Normalization
+
+
+matplotlib.pyplot for plotting graphs.
+Once the data is imported  25 percent of it is split off into the test set, and the other 75 percent is used to train the model.
+I used the Singular value Decomposition model for collaborative filtering for this machine learning model. In a nutshell, if two users have similar ratings, the model will assume that they will have similar preferences as well and recommend movies as such.  The results of this process are then put onto a graph using Matplot.
+
+
+ 
